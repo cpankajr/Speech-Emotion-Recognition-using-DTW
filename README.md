@@ -1,7 +1,9 @@
 # Speech-Emotion-Recognition-using-DTW
 
 Authors:
+
 Pankaj Chauhan (https://github.com/cpankajr)
+
 Umang Bhatt (https://github.com/umanghbhatt)
 
 Speech is a vocalized form of human communication. Emotions exert an incredibly powerful
