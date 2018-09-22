@@ -1,6 +1,5 @@
 # Speech-Emotion-Recognition-using-DTW
 
-Authors:
 
 Speech is a vocalized form of human communication. Emotions exert an incredibly powerful
 force on human behavior. Emotion plays an important role in a person’s approach to a
@@ -15,3 +14,30 @@ spoken utterance.
 This project mainly aims to classify 5 emotions namely sad, happy, anger, surprise and
 neutral. The input signal is divided into various frames of 20ms and features are extracted
 from each frame using MFCC. Later on, DTW is used for classification of emotions.
+
+#
+
+**SilenceRemoval.m** -> For removing silnce in uttrances because they do not contain any information
+                    By using end point detection method
+
+#
+Following files used for extracting MFCC features from speech samples (taken from voicebox toolbox)
+
+
+**enframe.m**	-> for framing of samples
+
+**frq2mel.m**	-> coverts freq scale to mel freq scale
+
+**mel2frq.m**	-> converts mel freq scale to freq scale
+
+**rdct.m** -> for calcuclating DCT of data (it decorrelates the data)
+
+**rfft.m** -> for calculating FFT of data
+
+**melcepst.m**	-> main function which combines all functions to get MFCCs 
+
+for further understanding of mfcc you can refer
+
+[Spectrogram, Cepstrum and Mel-Frequency Analysis by Kishore Prahallad](https://github.com/cpankajr/Harmony-Search-for-Feature-Selection-in-ASER/blob/master/Documents/MFCC_%20explaination%20by%20Kishore%20Prahallad.pdf)
+
+[Mel Frequency Cepstral Coefficient (MFCC) tutorial](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/)
