@@ -15,6 +15,8 @@ This project mainly aims to classify 5 emotions namely sad, happy, anger, surpri
 neutral. The input signal is divided into various frames of 20ms and features are extracted
 from each frame using MFCC. Later on, DTW is used for classification of emotions.
 
+[Project report](https://cpankajr.github.io/reports/Mini-Project-2.pdf)
+
 **You can get SAVEE database from [this link](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Register.html) after simple registration.**
 
 #
