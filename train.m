@@ -1,4 +1,16 @@
-%% train.m
+% train.m
+
+%after downloading the database 
+%save it under folder name 'English Emotion database'
+%i have taken DC folder as refrence 
+%remaining 3 folder are kept for testing
+%before running the this file 
+%rename all wav file in DC folder
+%rename a01 to a1
+%a02 to a2
+%and similerly all
+%then run it
+% you have to this only once
 
 for i=1:15
     fname=sprintf('English Emotion database\\DC\\a%d.wav',i);
