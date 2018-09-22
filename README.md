@@ -2,10 +2,6 @@
 
 Authors:
 
-Pankaj Chauhan (https://github.com/cpankajr)
-
-Umang Bhatt (https://github.com/umanghbhatt)
-
 Speech is a vocalized form of human communication. Emotions exert an incredibly powerful
 force on human behavior. Emotion plays an important role in a person’s approach to a
 particular situation at that particular time. Unable to understand a person’s emotion in a
