@@ -15,8 +15,15 @@ This project mainly aims to classify 5 emotions namely sad, happy, anger, surpri
 neutral. The input signal is divided into various frames of 20ms and features are extracted
 from each frame using MFCC. Later on, DTW is used for classification of emotions.
 
-You can get SAVEE database from [this link](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Register.html) after simple registration.
+**You can get SAVEE database from [this link](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Register.html) after simple registration.**
 
+#
+
+**train.m** -> for extracting mffcs from ref speaker nd storing in it a file
+
+mfcc features is already extracted from uttrances of refrence speaker and stored in **_mfcc.mat_**
+
+**MAIN.m** -> it calculates distance between test sample nd ref samples. After calculting distances, it assign label of minm distance ref sample to test sample
 #
 
 **SilenceRemoval.m** -> For removing silnce in uttrances because they do not contain any information
